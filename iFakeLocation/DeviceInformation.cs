@@ -339,7 +339,7 @@ namespace iFakeLocation {
                 // Mount the image
                 if (mounter.mobile_image_mounter_mount_image(mounterHandle, mountName, sig, (ushort) sig.Length,
                         imageType, out plistHandle) != MobileImageMounterError.Success)
-                    throw new Exception("Unable to mount developer image.");
+                    throw new Exception("掛載開發者映像檔失敗，請嘗試解鎖裝置。");
 
                 // Parse the plist result
                 var result = PlistReader.ReadPlistDictFromNode(plistHandle);

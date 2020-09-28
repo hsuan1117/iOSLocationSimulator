@@ -429,8 +429,8 @@ namespace iFakeLocation {
             // Start window
             try {
                 OpenBrowser($"http://localhost:{port}/");
-                Console.WriteLine("iFakeLocation is now running at: " + $"http://localhost:{port}/");
-                Console.WriteLine("\nPress Ctrl-C to quit (or click the close button).");
+                Console.WriteLine("iFakeLocation 設定頁面: " + $"http://localhost:{port}/");
+                Console.WriteLine("\n按下 Ctrl-C 停止。");
             }
             catch {
                 Console.WriteLine("Unable to start iFakeLocation using default web browser.");
