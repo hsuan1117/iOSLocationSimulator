@@ -8,6 +8,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Globalization;
 using System.Collections.Generic;
+using System.Windows;
 using iMobileDevice;
 using Newtonsoft.Json;
 using ICSharpCode.SharpZipLib.Zip;
